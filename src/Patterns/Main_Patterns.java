@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Patterns;
 
 public class Main_Patterns {
     public static void main(String[] args) {
