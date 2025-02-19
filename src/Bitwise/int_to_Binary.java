@@ -12,6 +12,6 @@ public class int_to_Binary{
             bin=rem+bin;
             n=n/2;
         }
-        System.out.println("The Binary Value : "+bin);
+        System.out.println("The Binary Value : "+(bin));
     }
 }

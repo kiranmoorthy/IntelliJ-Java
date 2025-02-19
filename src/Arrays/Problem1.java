@@ -1,3 +1,4 @@
+package Arrays;
 /*
     Sample Input:
     7 4 6

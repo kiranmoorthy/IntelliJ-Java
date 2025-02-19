@@ -1,3 +1,5 @@
+package Numbers;
+
 import java.util.Scanner;
 
 public class Swap_2nums_withoutTemp {

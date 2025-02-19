@@ -1,3 +1,5 @@
+package Numbers;
+
 import java.util.Scanner;
 public class Adams_Number {
     public static void main(String[] args) {
