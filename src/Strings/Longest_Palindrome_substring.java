@@ -2,7 +2,7 @@ package Strings;
 
 import java.util.Scanner;
 
-public class Longest_Palindrome_inString {
+public class Longest_Palindrome_substring {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         String str=in.next();
