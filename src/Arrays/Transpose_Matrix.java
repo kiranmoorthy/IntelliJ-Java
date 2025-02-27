@@ -1,14 +1,21 @@
+/*
+
+    LeetCode : 867
+
+*/
+
 package Arrays;
 
 import java.util.Scanner;
-public class MaxOf_2Darray{
+
+public class Transpose_Matrix {
     public static void main (String[]args){
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the row:");
         int r=in.nextInt();
         System.out.println("Enter the column:");
         int c=in.nextInt();
-        int a[][]=new int[r][c];
+        int[][]a=new int[r][c];
         System.out.println("Enter the elements:");
         for(int i=0;i<r;i++)
         {
@@ -17,19 +24,25 @@ public class MaxOf_2Darray{
                 a[i][j]=in.nextInt();
             }
         }
-        int max =a[0][0];
-        for(int i=0;i<r;i++)
+
+        // Transposing the array
+        int[][]t=new int[c][r];
+        for(int i=0;i<c;i++)
         {
-            for(int j=0;j<c;j++)
+            for(int j=0;j<r;j++)
             {
-                if(a[i][j]> max)
-                {
-                    max =a[i][j];
-                }
+                t[i][j]=a[j][i];
             }
         }
-        System.out.println("Maximum value in is "+ max);
 
-
+        // Printing the array
+        for(int i=0;i<c;i++)
+        {
+            for(int j=0;j<r;j++)
+            {
+                System.out.print(t[i][j]+" ");
+            }
+            System.out.println();
+        }
     }
 }

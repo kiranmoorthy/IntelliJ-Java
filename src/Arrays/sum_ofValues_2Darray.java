@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.Scanner;
 public class sum_ofValues_2Darray{
         public static void main (String[]args){
