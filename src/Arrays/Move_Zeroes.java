@@ -1,5 +1,7 @@
 /*
 
+    LeetCode : 283
+
  */
 
 package Arrays;
@@ -12,24 +14,19 @@ public class Move_Zeroes {
         }
         System.out.println();
 
-        int i=0;
+        int n=a.length;
+
         int j=0;
-        int n=a.length-1;
-        while(i<n &&j<n){
-            while(i<n &&j<n && a[i]!=0){
-                i++;
-            }
-            while(i<n &&j<n && a[j]==0){
-                j++;
-            }
-            if(i<j){
+        for(int i=0;i<n;i++){
+            if(a[i]!=0){
                 int t=a[i];
                 a[i]=a[j];
                 a[j]=t;
+                j++;
             }
-            i++;
-            j++;
         }
+
+
         for(int k :a){
             System.out.print(k+" ");
         }
