@@ -1,4 +1,4 @@
-// String:      Welcome to Java
+package Strings;// String:      Welcome to Java
 //               |  | |  |  | |
 //               e  o e  o  a a
 
