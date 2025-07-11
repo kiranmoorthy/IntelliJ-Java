@@ -14,8 +14,5 @@ public class int_to_Binary{
         }
         System.out.println("The Binary Value : "+(bin));
 
-
-
-
     }
 }
