@@ -13,5 +13,9 @@ public class int_to_Binary{
             n=n/2;
         }
         System.out.println("The Binary Value : "+(bin));
+
+
+
+
     }
 }
