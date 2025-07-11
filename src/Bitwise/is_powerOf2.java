@@ -7,7 +7,7 @@ Check if a given number is power of 2 using Bit manipulation;
     100=bin(2^2)
     1000=bin(2^3)
 
- */
+*/
 package Bitwise;
 
 import java.util.Scanner;
